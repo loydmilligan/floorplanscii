@@ -33,11 +33,11 @@
     "doors": [
       {"wall": "x=2", "pos": 3.5, "type": "int"},
       {"wall": "y=3", "pos": 3.5, "type": "int"},
-      {"wall": "y=4", "pos": .5, "type": "ext"}
+      {"wall": "y=4", "pos": 0.5, "type": "ext"}
     ],
     "windows": [
       {"wall": "x=0", "pos": 2.0, "width": 2},
-      {"wall": "y=0", "pos": .5, "width": 1},
+      {"wall": "y=0", "pos": 0.5, "width": 1},
       {"wall": "y=0", "pos": 1.5, "width": 1},
       {"wall": "y=0", "pos": 3.0, "width": 1},
       {"wall": "y=0", "pos": 3.5, "width": 1}
