@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Matt's Apartment",
+    "description": "A detailed layout of the apartment, including rooms and architectural features.",
+    "street_address1": "3830 Westwood Blvd",
+    "street_address2": "Apt 1",
+    "city": "Culver City",
+    "state": "CA",
+    "zipcode": "90232"
+  },
+  "settings": {
+    "scale_x": 6,
+    "scale_y": 3,
+    "padding_x": 3,
+    "padding_y": 2,
+    "show_axes": true,
+    "show_compass": true
+  },
+  "rooms": [
+    {"name": "Family",  "x": 0, "y": 0, "width": 2, "height": 4},
+    {"name": "Office",  "x": 2, "y": 0, "width": 2, "height": 3},
+    {"name": "Kitchen", "x": 4, "y": 0, "width": 2, "height": 2},
+    {"name": "Closet",  "x": 2, "y": 3, "width": 1, "height": 1},
+    {"name": "Bath",    "x": 3, "y": 3, "width": 2, "height": 1},
+    {"name": "Hall",    "x": 4, "y": 2, "width": 2, "height": 1},
+    {"name": "Laundry", "x": 5, "y": 3, "width": 3, "height": 1},
+    {"name": "Bedroom", "x": 6, "y": 0, "width": 2, "height": 3}
+  ],
+  "features": {
+    "compass": {
+      "x": 9, "y": 1, "orientation": "N"
+    },
+    "doors": [
+      {"wall": "x=0", "pos": 3.5, "type": "ext"},
+      {"wall": "x=2", "pos": 3.5, "type": "int"},
+      {"wall": "y=3", "pos": 3.5, "type": "int"}
+    ],
+    "windows": [
+      {"wall": "y=0", "pos": 1.0, "width": 1},
+      {"wall": "y=0", "pos": 3.0, "width": 1}
+    ],
+    "openings": [
+      {"wall": "x=2", "pos": 1.5, "type": "int"},
+      {"wall": "x=4", "pos": 2.5, "type": "int"}
+    ]
+  }
+}
